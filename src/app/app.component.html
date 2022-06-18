@@ -1,0 +1,27 @@
+
+<app-test-component ></app-test-component>
+{{title}}
+{{2+3}}
+{{title.length}}
+<table class="w-100  ">
+  <thead>
+    <th>col1</th>
+    <th>col1</th> 
+      <th>col1</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ddddd</td></tr>
+  </tbody>
+</table>
+<!--style binding -->
+<h2  [style]="navstyle">Binding the src property of an image:</h2>
+<h4 [style.text-decoration]='underline'>binding style </h4>
+<!--end of style biinding -->
+
+<!--tmplete references variable-->
+<input type="text" #myname value="lana">
+<button (click)="onclickbtn(myname.value)">click me </button>
+<!--end of templete refrences variables -->
+
+<!--<app-t1></app-t1>--> 
